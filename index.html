@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     <title>guitar-transform</title>
     <script src="main.js"></script>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<center>
+<div style="text-align: center;">
 <h1>Hier kannst du Akkorde für Gitarre gratis umwandeln!</h1>
  <img src="img_1.png" alt="Gitarre rechts"> <img src="img.png" alt="Gittare links">
 <!-- Simple Textfield -->
 <form action="#">
     <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="akkord 1" id="tf1">
+        <input class="mdl-textfield__input" type="text" id="tf1">
         <label class="mdl-textfield__label" for="tf1">Chords hier eingeben</label>
     </div>
 
@@ -21,12 +22,16 @@
     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="akkordeDzuC()">
         Von D zu C
     </button>
+    <!-- Raised button with ripple -->
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="akkordeCzuD()">
+        Von C zu D
+    </button>
     <!-- Textfield with Floating Label -->
 
     <form action="#">
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" id="akkordeeingabe">
-            <label class="mdl-textfield__label" for="akkordeeingabe">Text...</label>
+            <input class="mdl-textfield__input" type="text" id="tf2">
+            <label class="mdl-textfield__label" for="tf2">ist dein transponierter Akkord!</label>
         </div>
     </form>
 
@@ -35,6 +40,6 @@
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ/">Gitarrenkurs für Anfänger</a>
     </h2>
 </form>
-</center>
+</div>
 </body>
 </html>

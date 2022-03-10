@@ -1,50 +1,60 @@
-let a, b, c, d, e, f, g;
-//let ais, cis, dis, eis, fis, gis;
-let ergebnis1 = "a", ergebnis2 = "b", ergebnis3 = "c", ergebnis4 = "d", ergebnis5 = "e", ergebnis6 = "f", ergebnis7 = "g"
+let a, c, d, f, g;
+let ausgabe, eingabe;
+
+//let ergebnis1 = "a", ergebnis2 = "b", ergebnis3 = "c", ergebnis4 = "d", ergebnis5 = "e", ergebnis6 = "f", ergebnis7 = "g" , b, e
+
+
+eingabe = document.getElementById("tf1")
+ausgabe = document.getElementById("tf2")
 
 function akkordeDzuC() {
-    d = ergebnis3
-    a = ergebnis7
-    g = ergebnis6
 
 
-    if (d){
-        console.log("c")
+
+    if (eingabe === d) {
+        ausgabe = c
+    } else if (eingabe === a) {
+        ausgabe = g
+    } else if (eingabe === g) {
+        ausgabe = f
     }
-    else if (a) {
+}
+
+function akkordeCzuD() {
+
+
+    if (eingabe === c) {
+        console.log("d")
+
+    } else if (eingabe === g) {
+        console.log("a")
+
+    } else if (eingabe === f)
         console.log("g")
-    }
-    else if (g) {
-        console.log("f")
-    }
 }
 
 
 
 
-
-
-
-
-
-
-
-/*function akkordePruefen() {
-    a = parseInt(document.getElementById("akkordeeingabe").value);
-    b = parseInt(document.getElementById("akkordeeingabe").value);
-    c = parseInt(document.getElementById("akkordeeingabe").value);
-    d = parseInt(document.getElementById("akkordeeingabe").value);
-    e = parseInt(document.getElementById("akkordeeingabe").value);
-    f = parseInt(document.getElementById("akkordeeingabe").value);
-    g = parseInt(document.getElementById("akkordeeingabe").value);
+/*
+eArrays{
+main (string [],arg){
+string [] array = new string [4];
+array[0] = "a"
+array[1] = "b"
+array[2] = "c"
+array[3] = "d"
+array[4] = "e"
+for (int i = 0; i<array.length.i++){
+system  }
 }
 
-    if (d, a, g)
-        console.log("noice")
-    else if(d, e, f, g){
-        console.log("auch gut")
 
-    }
+/*let ais, cis, dis, eis, fis, gis;
+let ergebnis1 = "a", ergebnis2 = "b", ergebnis3 = "c", ergebnis4 = "d", ergebnis5 = "e", ergebnis6 = "f", ergebnis7 = "g"
+
+
+
 
 
 function akkordeeingabe() {
